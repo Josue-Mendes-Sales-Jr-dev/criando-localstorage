@@ -1,0 +1,28 @@
+ <!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>localstorage</title>
+    
+ </head>
+ <body>
+    <form action="#" method="get" class="form">
+        <label for="vname">Nome</label><br>
+        <input type="text" name="vname" id="fname"><br><br>
+        <label for="">lista de cores</label><br><br>
+        <input type="radio" onclick="troca(1,'#000')" name="vcor" >preto<br>
+        <input type="radio" onclick="troca(1,'#F00')" name="vcor" >Vermelho<br>
+        <input type="radio" onclick="troca(1,'#00F')" name="vcor" >Azul<br>
+        <input type="radio" onclick="troca(1,'#0F0')" name="vcor">Verde<br><br>
+        <label for="">Lista texto</label><br>
+        <input type="radio" name="tex" onclick="troca(2,'#FFF')" >branco<br>
+        <input type="radio" name="tex" onclick="troca(3,'#dd9')" >Cinza<br>
+        <input type="radio" name="tex" onclick="troca(2,'#FA0')" >marrom<br><br>
+        <input type="button" value="Gravar" onclick="gravar()">
+        
+    </form>
+    <script src="localstorage.js"></script>
+ </body>
+ </html>
